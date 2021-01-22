@@ -29,8 +29,11 @@ body {
 img{
     width: 200px;
     height: 200px;
+    border: dashed 3px red;
 }
 
 .features{
-
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
 }
